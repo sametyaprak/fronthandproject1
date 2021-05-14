@@ -6,6 +6,19 @@
     text-align: center;
     font-size: 75;
 }
+#sub-title{
+    color: rgb(228, 31, 179);
+    text-align: center;
+    font-size: 40;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    letter-spacing: 3.2px;
+    word-spacing: -1.2px;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: italic;
+    font-variant: small-caps;
+    text-transform: uppercase;
+}
 .main-card {
     background: #CE5937;
     width: 14.5%;
@@ -31,7 +44,7 @@
         font-size: 18px;
         letter-spacing: 4.4px;
         word-spacing: 2.6px;
-        color: #000000;
+        color: #fafafa;
         font-weight: 700;
         text-decoration: none solid rgb(232, 230, 227);
         font-style: italic;
@@ -49,8 +62,51 @@
     .spring-logo{
         width: 250px;
         height: 100px;   
-        margin-bottom: 40px;  
+        margin-bottom: 20px;  
+        margin-top: 15px;
         margin-left: auto;
         margin-right: auto; 
         display: block;  
     }
+    table.main-links-table {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #9b9898;
+        color: #363636;
+        font-weight: 800;
+        width: 20%;
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 3%;
+      }
+      table.main-links-table tbody td {
+        font-size: 20px;
+        background: #BCA8AE;
+        padding: 3px 3px;
+        height: 50px;
+        text-align: left;
+        font-weight: bold;
+      }
+ 
+      table.main-links-table thead {
+        background: #4D7096;
+        background: -moz-linear-gradient(top, #7994b0 0%, #5e7ea0 66%, #4D7096 100%);
+        background: -webkit-linear-gradient(top, #7994b0 0%, #5e7ea0 66%, #4D7096 100%);
+        background: linear-gradient(to bottom, #7994b0 0%, #5e7ea0 66%, #4D7096 100%);
+      }
+      table.main-links-table thead th{
+          height: 50px;      
+      }
+      .html-icon{
+          height: 25px;
+      }
+      a {
+        text-decoration: none; 
+        color: #363636;     
+       }
+
+
+
+  
+      
+
+
