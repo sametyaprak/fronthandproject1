@@ -130,6 +130,7 @@
         font-size:17px;
         padding:10px 35px;
         text-decoration:none;
+        margin-bottom: 20;
     }
     .myButton:hover {
         background-color:#bf2a92;
@@ -137,6 +138,11 @@
     .myButton:active {
         position:relative;
         top:1px;
+    }
+    .radio-buttons{
+        margin-top: 10px;
+        width: 80px;
+        height: 20px;
     }
 
 
