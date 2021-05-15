@@ -1,4 +1,4 @@
-#main-body{
+.main-body{
     background-color: rgb(7, 116, 116);
 }
 #main-title{
@@ -73,10 +73,9 @@
         background-color: #9b9898;
         color: #363636;
         font-weight: 800;
-        width: 20%;
         text-align: center;
         margin-top: 20px;
-        margin-left: 3%;
+        margin-left: 5%;
       }
       table.main-links-table tbody td {
         font-size: 20px;
@@ -103,6 +102,44 @@
         text-decoration: none; 
         color: #363636;     
        }
+       .info-side{
+           width: 50%;
+           font-size: 25px; 
+                      
+       }
+       .data-side1{
+        width: 400px;
+        max-width: 800;
+        height: 30;   
+        margin-top: 20;     
+    }
+    .data-side2{
+        width: 400px;
+        max-width: 800; 
+        margin-top: 20;     
+    }
+    .myButton {
+        margin-top: 20;
+        background-color:#44c767;
+        border-radius:15px;
+        border:1px solid #18ab44;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:17px;
+        padding:10px 35px;
+        text-decoration:none;
+    }
+    .myButton:hover {
+        background-color:#bf2a92;
+    }
+    .myButton:active {
+        position:relative;
+        top:1px;
+    }
+
+
 
 
 
