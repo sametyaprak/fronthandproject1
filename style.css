@@ -119,15 +119,14 @@
         margin-top: 20;     
     }
     .myButton {
-        margin-top: 20;
+        margin-top: 25;
         background-color:#44c767;
         border-radius:15px;
-        border:1px solid #18ab44;
         display:inline-block;
         cursor:pointer;
         color:#ffffff;
         font-family:Arial;
-        font-size:17px;
+        font-size:15px;
         padding:10px 35px;
         text-decoration:none;
         margin-bottom: 20;
@@ -144,6 +143,42 @@
         width: 80px;
         height: 20px;
     }
+    table.webtables {
+        font-family: "Arial Black", Gadget, sans-serif;
+        background-color: #696969;
+        width: 1000px;
+        height: 600px;
+        text-align: center;
+      }
+      table.webtables td, table.webtables th {
+        border: 1px solid #868686;
+      }
+      table.webtables tbody td {
+        font-size: 15px;
+        color: #E6E6E6;
+      }
+      table.webtables tr:nth-child(even) {
+        background: #888888;
+      }
+      table.webtables thead {
+        background: #000000;
+        border-bottom: 3px solid #000000;
+      }
+      table.webtables thead th {
+        height: 60px;  
+        font-size: 18px;
+        font-weight: bold;
+        color: #E6E6E6;
+        text-align: center;
+        border-left: 2px solid #4A4A4A;
+      }
+      table.webtables thead th:first-child {
+        border-left: none;
+      }
+      
+      table.webtables tfoot td {
+        font-size: 12px;
+      }
 
 
 
