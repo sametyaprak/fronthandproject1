@@ -4,9 +4,10 @@
 #main-title{
     color: rgb(245, 245, 253);
     text-align: center;
-    font-size: 75;
+    font-size: 65;
 }
 #sub-title{
+  margin-top: 15;
     color: rgb(228, 31, 179);
     text-align: center;
     font-size: 40;
@@ -69,44 +70,31 @@
     }
     table.main-links-table {
         font-family: Arial, Helvetica, sans-serif;
-        background-color: #9b9898;
         color: #363636;
         font-weight: 800;
-        text-align: center;
-        margin-top: 20px;
-        margin-left: 5%;
+        text-align: center;        
       }
       table.main-links-table tbody td {
         font-size: 20px;
-        background: #BCA8AE;
         padding: 3px 3px;
         height: 50px;
         text-align: left;
         font-weight: bold;
       }
- 
-      table.main-links-table thead {
-        background: #4D7096;
-        background: -moz-linear-gradient(top, #7994b0 0%, #5e7ea0 66%, #4D7096 100%);
-        background: -webkit-linear-gradient(top, #7994b0 0%, #5e7ea0 66%, #4D7096 100%);
-        background: linear-gradient(to bottom, #7994b0 0%, #5e7ea0 66%, #4D7096 100%);
-      }
-      table.main-links-table thead th{
-          height: 50px;      
-      }
-      .html-icon{
+
+      .html-icon {
           height: 25px;
       }
       a {
         text-decoration: none; 
         color: #363636;     
        }
-       .info-side{
+       .info-side {
            width: 50%;
            font-size: 25px; 
                       
        }
-       .data-side1{
+       .data-side1 {
         width: 400px;
         max-width: 800;
         height: 30;   
@@ -114,7 +102,7 @@
         box-shadow: 5px 5px 5px yellow; 
         border-radius: 5px;    
     }
-    .data-side2{
+    .data-side2 {
         width: 400px;
         max-width: 800; 
         margin-top: 20;
@@ -141,7 +129,7 @@
         position:relative;
         top:1px;
     }
-    .radio-buttons{
+    .radio-buttons {
         margin-top: 10px;
         width: 80px;
         height: 20px;
@@ -182,6 +170,34 @@
       table.webtables tfoot td {
         font-size: 12px;
       }
+      .mainleftside {
+        min-height: 600px;
+      }
+      .moving-photos{
+        width: 250;
+        height: 200;
+        border-radius: 22px;
+    }
+    .accordion-header{
+      border: #000000;
+      border-style: solid;
+      border-width: 0.5px;
+      border-collapse: collapse;
+    }
+    .accordion-item{
+      background-color: #818e9b;
+      border: #000000;
+      border-style: solid;
+      border-width: 0.5px;
+      border-collapse: collapse;
+    }
+    .accordion-button{
+      background-color: #808080;
+      border: #000000;
+      border-style: solid;
+      border-width: 0.5px;
+      border-collapse: collapse;
+    }
 
 
 
