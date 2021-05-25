@@ -170,8 +170,8 @@
       table.webtables tfoot td {
         font-size: 12px;
       }
-      .mainleftside {
-        min-height: 600px;
+      .mainrightside {
+        min-height: 100px;
       }
       .moving-photos{
         margin: auto;
